@@ -16,6 +16,7 @@
 
 #pragma once
 
+#include <thrust/iterator/iterator_adaptor.h>
 // this iterator's implementation is based on zip_iterator, so we grab all of its includes
 #include <thrust/iterator/detail/zip_iterator_base.h>
 
